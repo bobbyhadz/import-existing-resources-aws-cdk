@@ -13,17 +13,11 @@ A repository for an article on
 npm install
 ```
 
-3. Create the CDK stack
+3. Replace the values of the `Dynamodb table Name` and `S3 bucket name` in
+   `lib/cdk-starter-stack.ts`
+
+4. Synthesize the stack and see the resources have been imported successfully
 
 ```bash
-npx cdk deploy
-```
-
-4. Open the AWS CloudFormation Console and the stack should be created in your
-   default region
-
-5. Cleanup
-
-```bash
-npx cdk destroy
+npx cdk synth
 ```
