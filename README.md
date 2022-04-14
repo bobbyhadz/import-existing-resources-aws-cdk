@@ -3,6 +3,8 @@
 A repository for an article on
 [bobbyhadz.com](https://bobbyhadz.com/blog/import-existing-resources-aws-cdk)
 
+> If you use CDK v1, switch to the cdk-v1 branch
+
 ## How to Use
 
 1. Clone the repository
@@ -19,5 +21,5 @@ npm install
 4. Synthesize the stack and see the resources have been imported successfully
 
 ```bash
-npx cdk synth
+npx aws-cdk synth
 ```
