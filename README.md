@@ -1,7 +1,7 @@
 # How to Import Existing Resources in AWS CDK
 
 A repository for an article on
-[bobbyhadz.com](https://bobbyhadz.com/blog/import-existing-resources-aws-cdk)
+[bobbyhadz.com](https://bobbyhadz.com/blog/aws-cdk-import-existing-s3-bucket)
 
 > If you use CDK v1, switch to the cdk-v1 branch
 
